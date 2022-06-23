@@ -1,0 +1,506 @@
+* {
+     /* border: 1px solid red;  */
+}
+
+#logo {
+    width: 177px;
+    height: 50px;
+}
+
+.logo_menu {               /* Логотип и меню (фиксированное позиционирование) */
+    width: 1200px;
+    margin:auto;
+    display: flex;
+    margin-top: 26px;
+    justify-content: space-between;
+    background: #F4F0EC;
+    position: sticky;
+    top: 2px;
+}
+
+nav {
+    height: 62px;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 40px;
+}
+
+.menu1 a {
+    display: inline;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+color: #CDA274;
+}
+
+.menu2 a {
+    display: inline;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+letter-spacing: 0.4px;
+color: #292F36;
+}
+
+.room{                       /*основное фото*/
+    width: 1200px;        
+    height: 831px;
+    background: url(.jpg), #CDA274;
+border-radius: 0px 0px 0px 290px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 18px;
+}
+
+.threebloc {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.threebloc div {
+    width: 317px;
+}
+
+.threebloc a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    width: 145px;
+    font-size: 18px;
+    padding:10px;
+    text-align: center;
+}
+
+.threebloc a:hover {
+text-decoration: none;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.36px;
+text-align: center;
+color: #4D5053;
+}
+
+.threebloc h3 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    /* identical to box height, or 156% */
+    letter-spacing: 0.22px;
+    text-align: center;
+    color: #292F36;
+}
+
+.threebloc p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* or 150% */
+letter-spacing: 0.22px;
+text-align: center;
+color: #4D5053;
+}
+
+.twobloc{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 140px;
+}
+
+.twobloc .bloc1 {
+    width: 600px;
+    text-align: center;
+}
+
+.twobloc .bloc1 h5 {
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 65px;
+/* or 130% */
+letter-spacing: 0.22px;
+color: #292F36;
+margin-top: 36px;
+}
+
+.twobloc .bloc1 p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* or 150% */
+letter-spacing: 0.22px;
+color: #4D5053;
+margin-top: 36px;
+
+}
+.twobloc .bloc1 img {
+    margin-top: 36px;
+}
+
+.twobloc .bloc2 {
+    width: 600px;
+}
+
+.opinions {
+    height: 475px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F4F0EC;
+border-radius: 70px;
+margin-top: 140px;
+}
+
+.opinions h3 {
+    margin-top: 103px;
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 58px;
+/* identical to box height, or 130% */
+text-align: center;
+letter-spacing: 0.22px;
+color: #292F36;
+}
+
+.opinions div {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.opinions img {
+    width: 77px;
+    height: 77px;
+    margin-top: 46px;
+    margin-left: 30px;
+    margin-right: 20px;
+    float: left;
+}
+
+.opinions h5 {
+    margin-top: 55px;
+    margin-bottom: 0;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+/* identical to box height, or 150% */
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.opinions h6 {
+    margin-top: 0px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.22px;
+    color: #4D5053; 
+    
+}
+
+.opinions p {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    letter-spacing: 0.22px;
+    color: #4D5053;  
+}
+
+.opinions article {
+    width: 354px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.partners{
+    display: block;
+    width: 1200px;
+    margin-top: 140px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects {               /* Примеры проектов 4 фото.*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 20px; 
+    margin-top: 113px;
+}
+
+.projects h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 0px;
+}
+
+
+.opinions h5 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+/* identical to box height, or 150% */
+    margin-top: 0px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.projects img {
+   width: 40vw;
+}
+
+.projects h4 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.projects p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+/* identical to box height, or 150% */
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.history img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    width: 1200px;
+    background: #F4F0EC;
+   }
+
+.recents {
+    margin-top: 140px;
+}
+
+.recents div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 19px;
+}
+
+.recents article {
+    padding: 21px;
+    width: 345px;
+    border: 1px solid #E7E7E7;
+    border-radius: 62px;
+}
+
+.recents p {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    /* or 140% */
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #292F36;
+}
+
+.recents h3 {
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+/* identical to box height, or 130% */
+text-align: center;
+letter-spacing: 0.22px;
+color: #292F36;
+}
+
+.recents p {
+        font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height, or 150% */
+letter-spacing: 0.22px;
+color: #4D5053;
+}
+
+.connect {
+        margin-top: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        height: 310px;
+        background: #292F36;
+border-radius: 70px;
+    }
+
+.connect h5 {
+    margin-top: 50px;
+    margin-bottom: 9px;
+   font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 75px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.22px;
+color: #FFFFFF;
+}   
+
+.connect h6 {
+    margin-top: 20px;
+    margin-bottom: 31px;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.22px;
+color: #FFFFFF;
+}
+
+.connect button {
+    width: 241px;
+    height: 71px;
+    margin-top: 31px;
+    margin-bottom: 85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #CDA274;
+border: 2px solid #CDA274;
+box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+border-radius: 18px;
+}
+
+.footer {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 79px;
+    justify-content: space-between;
+}
+
+.footer section {
+    width: 18vw;
+}
+
+.footer section p {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* or 150% */
+letter-spacing: 0.22px;
+padding: 10px;
+color: #4D5053;
+}
+
+.footer section h4 {
+    font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+/* identical to box height, or 150% */
+letter-spacing: 0.22px;
+padding: 10px;
+color: #292F36;
+}
+
+.footer section img {
+    margin-top: 33px;
+    padding: 10px;
+}
+
+.last {
+    text-align: center;
+}
+
+.last span {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.22px;
+color: #4D5053;
+}
+
+.last .last_1 {
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height, or 150% */
+text-align: center;
+letter-spacing: 0.22px;
+color: #CDA274;
+}
