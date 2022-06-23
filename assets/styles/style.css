@@ -8,7 +8,8 @@
 }
 
 .logo_menu {               /* Логотип и меню (фиксированное позиционирование) */
-    width: 1200px;
+    width: 1160px;
+    padding: 0 20px;
     margin:auto;
     display: flex;
     margin-top: 26px;
@@ -28,6 +29,7 @@ nav ul {
     justify-content: space-between;
     padding: 0px;
     gap: 40px;
+    list-style: none;
 }
 
 .menu1 a {
@@ -175,21 +177,22 @@ margin-top: 36px;
     margin-left: auto;
     margin-right: auto;
     background: #F4F0EC;
-border-radius: 70px;
-margin-top: 140px;
+    border-radius: 70px;
+    margin-top: 140px;
 }
 
 .opinions h3 {
-    margin-top: 103px;
+    padding: 30px;
+    /* margin-top: 103px; */
     font-family: 'DM Serif Display';
-font-style: normal;
-font-weight: 400;
-font-size: 45px;
-line-height: 58px;
-/* identical to box height, or 130% */
-text-align: center;
-letter-spacing: 0.22px;
-color: #292F36;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    /* identical to box height, or 130% */
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
 }
 
 .opinions div {
