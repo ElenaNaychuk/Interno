@@ -67,16 +67,65 @@ nav ul {
     text-decoration: none;
     }
     
-.room{                       /*основное фото*/
+.one_block {                       /*основное фото*/
+    display: flex;      
     height: 831px;
-    background: url(.jpg), #CDA274;
+    background: url(../images/room.png);
     border-radius: 0px 0px 0px 290px;
     display: block;
     margin-top: 18px;
     margin-left: -120px;
     margin-right: -120px;
 }
+.block_1 {
+    width: 595px;
+    height: 192px;
+    padding-top: 188px;
+    padding-left: 120px;
+    font-family:
+     'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 96px;
+/* or 120% */
+letter-spacing: 0.22px;
+color: #292F36;
+}
 
+.block_2 {
+    padding-left: 120px;
+    padding-top: 19px;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height, or 150% */
+letter-spacing: 0.22px;
+color: #4D5053;
+}
+
+.one_block a {
+    
+    display: block;
+    text-align: center;
+    line-height: 71px;
+    text-decoration: none;
+    width: 207px;
+    height: 71px;
+    margin-left: 120px;
+    margin-top: 35px;
+    color: white;
+    background: #292F36;
+    border: 2px solid #292F36;
+    border-radius: 18px;
+}
+
+.one_block a:hover {
+   background-color: #cda274;
+   color: white;
+}
 .threebloc {
     display: flex;
     gap: 90px;
@@ -119,6 +168,8 @@ line-height: 27px;
 letter-spacing: 0.36px;
 text-align: center;
 color: #4D5053;
+background-color: #cda274;
+   color: white;
 }
 
 .threebloc h3 {
@@ -186,6 +237,29 @@ margin-top: 36px;
 }
 .twobloc .bloc1 img {
     margin-top: 36px;
+}
+
+.twobloc .bloc1 a {
+    width: 263px;
+    height: 71px;
+    display: block;
+    text-decoration: none;
+    line-height: 71px;
+    background: #292F36;
+border: 2px solid #292F36;
+border-radius: 18px;
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+/* identical to box height, or 150% */
+letter-spacing: 0.72px;
+color: #FFFFFF;
+
+}
+.twobloc .bloc1 a:hover {
+    background-color: #cda274;
+   color: white;
 }
 
 .twobloc .bloc2 {
@@ -273,7 +347,7 @@ margin-top: 36px;
     background: #FFFFFF;
     border-radius: 30px;
     margin-bottom: 121px;
-    margin-top: 47px;
+    margin-top: 17px;
 }
 
 .partners{
@@ -442,7 +516,11 @@ letter-spacing: 0.22px;
 color: #FFFFFF;
 }
 
-.connect button {
+.connect a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 71px;
     width: 241px;
     height: 71px;
     margin-top: 31px;
@@ -454,6 +532,11 @@ color: #FFFFFF;
 border: 2px solid #CDA274;
 box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
 border-radius: 18px;
+}
+
+.connect a:hover {
+    background-color: #edd5bb;
+   color: black;
 }
 
 .footer {
