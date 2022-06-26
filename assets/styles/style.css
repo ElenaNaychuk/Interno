@@ -1,7 +1,14 @@
 * {
      /* border: 1px solid red;  */
+    margin: 0px;
+    padding: 0px;
 }
-
+body {
+    width: 89vw;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #logo {
     width: 177px;
     height: 50px;
@@ -17,6 +24,7 @@
     background: #F4F0EC;
     position: sticky;
     top: 2px;
+    z-index: 1;
 }
 
 nav {
@@ -30,41 +38,43 @@ nav ul {
     padding: 0px;
     gap: 40px;
     list-style: none;
+    padding: 15px 0px;
 }
 
 .menu1 a {
     display: inline;
     font-family: 'Jost';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 /* identical to box height, or 150% */
-letter-spacing: 0.4px;
-color: #CDA274;
+    letter-spacing: 0.4px;
+    color: #CDA274;
+    text-decoration: none;
 }
 
 .menu2 a {
     display: inline;
     font-family: 'Jost';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 /* identical to box height, or 150% */
-letter-spacing: 0.4px;
-color: #292F36;
-}
-
+    letter-spacing: 0.4px;
+    color: #292F36;
+    text-decoration: none;
+    }
+    
 .room{                       /*основное фото*/
-    width: 1200px;        
     height: 831px;
     background: url(.jpg), #CDA274;
-border-radius: 0px 0px 0px 290px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 18px;
+    border-radius: 0px 0px 0px 290px;
+    display: block;
+    margin-top: 18px;
+    margin-left: -120px;
+    margin-right: -120px;
 }
 
 .threebloc {
@@ -87,6 +97,14 @@ margin-top: 18px;
     font-size: 18px;
     padding:10px;
     text-align: center;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+/* identical to box height, or 150% */
+    letter-spacing: 0.36px;
+    color: #4D5053;
+    text-decoration: none;
 }
 
 .threebloc a:hover {
@@ -131,11 +149,14 @@ color: #4D5053;
     display: flex;
     justify-content: center;
     gap: 18px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 140px;
+    position: relative;
 }
 
 .twobloc .bloc1 {
-    width: 600px;
+    width: 50%;
     text-align: center;
 }
 
@@ -168,22 +189,19 @@ margin-top: 36px;
 }
 
 .twobloc .bloc2 {
-    width: 600px;
+    width: 50%;
 }
 
 .opinions {
-    height: 475px;
-    width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 140px;
     background: #F4F0EC;
     border-radius: 70px;
-    margin-top: 140px;
-}
+} 
 
 .opinions h3 {
-    padding: 30px;
-    /* margin-top: 103px; */
+    padding: 70px;
     font-family: 'DM Serif Display';
     font-style: normal;
     font-weight: 400;
@@ -201,10 +219,10 @@ margin-top: 36px;
     gap: 18px;
 }
 
-.opinions img {
+.opinions article img {
     width: 77px;
     height: 77px;
-    margin-top: 46px;
+    margin-top: 50px;
     margin-left: 30px;
     margin-right: 20px;
     float: left;
@@ -239,6 +257,7 @@ margin-top: 36px;
 .opinions p {
     margin-right: 20px;
     margin-left: 20px;
+    margin-top: 32px;
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
@@ -253,14 +272,14 @@ margin-top: 36px;
     width: 354px;
     background: #FFFFFF;
     border-radius: 30px;
+    margin-bottom: 121px;
+    margin-top: 47px;
 }
 
 .partners{
     display: block;
-    width: 1200px;
     margin-top: 140px; 
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 .projects {               /* Примеры проектов 4 фото.*/
@@ -269,6 +288,7 @@ margin-top: 36px;
     justify-content: center;
     gap: 40px 20px; 
     margin-top: 113px;
+
 }
 
 .projects h2 {
@@ -281,24 +301,11 @@ margin-top: 36px;
     text-align: center;
     letter-spacing: 0.22px;
     color: #292F36;
-    margin-bottom: 0px;
-}
-
-
-.opinions h5 {
-    font-family: 'DM Serif Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 38px;
-/* identical to box height, or 150% */
-    margin-top: 0px;
-    letter-spacing: 0.22px;
-    color: #292F36;
+    width: 89vw;
 }
 
 .projects img {
-   width: 40vw;
+   width: 590px;
 }
 
 .projects h4 {
@@ -308,10 +315,22 @@ margin-top: 36px;
     font-size: 25px;
     line-height: 38px;
     /* identical to box height, or 150% */
-    
     letter-spacing: 0.22px;
     color: #292F36;
 }
+.text {
+    display: block;
+    text-align: center;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+/* identical to box height, or 150% */
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
 
 .projects p {
     font-family: 'Jost';
@@ -327,9 +346,8 @@ margin-top: 36px;
 .history img{
     display: block;
     margin-left: auto;
-    margin-right: auto;
     margin-top: 140px;
-    width: 1200px;
+    margin-right: auto;
     background: #F4F0EC;
    }
 
@@ -345,7 +363,7 @@ margin-top: 36px;
 }
 
 .recents article {
-    padding: 21px;
+    padding: 20px;
     width: 345px;
     border: 1px solid #E7E7E7;
     border-radius: 62px;
@@ -390,7 +408,6 @@ color: #4D5053;
         margin-top: 170px;
         margin-left: auto;
         margin-right: auto;
-        width: 1200px;
         height: 310px;
         background: #292F36;
 border-radius: 70px;
@@ -399,6 +416,7 @@ border-radius: 70px;
 .connect h5 {
     margin-top: 50px;
     margin-bottom: 9px;
+    padding: 20px;
    font-family: 'DM Serif Display';
 font-style: normal;
 font-weight: 400;
@@ -440,15 +458,14 @@ border-radius: 18px;
 
 .footer {
     display: flex;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
     margin-top: 79px;
     justify-content: space-between;
 }
 
 .footer section {
-    width: 18vw;
+    width: 17vw;
 }
 
 .footer section p {
@@ -482,6 +499,7 @@ color: #292F36;
 
 .last {
     text-align: center;
+    margin-top: 70px;
 }
 
 .last span {
