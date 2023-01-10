@@ -15,7 +15,7 @@ body {
 }
 
 .logo_menu {               /* Логотип и меню (фиксированное позиционирование) */
-    width: 1160px;
+    /* width: 1160px; */
     padding: 0 20px;
     margin:auto;
     display: flex;
